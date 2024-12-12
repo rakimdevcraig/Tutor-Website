@@ -1,0 +1,30 @@
+section with the class of takeaways and section id of takeaways
+div with the class of container
+div with the class of section header:
+h2
+heading border
+paragraph
+
+div with class of takeaway-cards inside:
+div with the class of card X6
+fontawesome icon rocket,globe/world,cloud,user,cog,server with class of text-primary(for styling)
+paragraph first word wrapped in strong text
+
+styling:
+add a utility section for text-primary class that will be under button utility class
+give it the color of primary variable
+
+make a text-secondary class that uses the secondary color variable
+
+now lets make our grid
+ 3 columns
+ 2rem space between elements
+ space inside the element top & bottom of 1.5rem
+
+card styles
+ now we want the icon on the left we can do that by making each individual card a flex container
+ we'll have to overwrite some settings that are already set on the card 
+ add 1rem of space on the outside of the icon
+
+media queries: 992
+stack the cards 1 column (see if i wanna do 2 and 1 at 576)

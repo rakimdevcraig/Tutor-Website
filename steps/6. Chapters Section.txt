@@ -1,0 +1,44 @@
+make a section with the classname of chapters and section(section will just be a utility class with padding and stuff)
+we want to give it an id of chapters so wen it's clicked from the menu uptop it will bring users down to it
+
+make a div with the class of container
+in the container we will have a div with the class section-header
+in the sectionheader we will have an h2 with the text:Main Course Chapters
+below that we'll have a div with the class of heading-border to use the same border from earlier
+we will have a paragraph with the text:explore the core concepts and techniques covered in out video course. Each chapter is designed to equip you with essential skills for video creation.
+now we want a div for the chapters we will name that chapter-cards
+each card will be wrapped in a class of card
+the card class will have an image that is chapters-icon1,2,3
+underneath the image we will have an h3 and a paragraph
+
+Styling:
+Now we're gonna make out utility class for the .section class
+space ontop and bottom of the element of 4rem no space left/right
+
+now we're gonna style the chapter cards: (utility class put under section utility classes)
+make it a grid
+make it have 3columns 1fr each
+space between elements of 2rem
+space inside the grid top1 rem left/right 0 rem bottom 4rem
+
+now we wanna style the images in each card
+130px wide
+space ontop outside the element of 1rem
+
+now we're gonna make the card a utility class (to use over)
+we want it to be a flexbox
+we want the items to align vertically
+center on main and cross axis
+space inside the card 2rem top/bottom 1.75rem left/right
+background white
+box shadow 0 4px 12px 0 rgba(0,0,0,0.3)
+
+now we need to style the h3:
+text size of 1.25rem
+weight of text 700
+space outside the element top/bottom of 1rem 0 space left/right
+
+media queries:
+
+992px
+need to stack the cards

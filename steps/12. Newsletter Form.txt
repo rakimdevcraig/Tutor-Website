@@ -1,0 +1,44 @@
+make a section with the class of newsletter id of newsletter
+div with the class of container and newsletter flex(to center everything)
+h2
+paragraph
+form inside: (go back and look at forms for examples)
+input email 
+button with class of btn that submits
+
+
+Styling
+newsletter wrapper
+align text center
+space outside the element top/bottom of 0 left/right of 2rem
+
+newsletter flex
+center main/cross axis
+make horizontal
+space between elements 1rem
+background of light color variable
+border 1px solid #eee
+space inside the element 4rem top/bottom 2rem left/right
+
+
+h2: 
+2rem
+bold
+
+p:
+no bigger than 600px so it doesnt stretch out all the way
+
+
+input target by type (have to look at selectors)
+space inside top/bottom 1rem left/right 2rem
+border 1px solid #ccc
+border-radius 2rem
+width: 100%
+no bigger than 400px wide
+space outside the element top/bottom 1.2rem
+
+media query 576
+make heading smaller 1.5rem
+dont show the paragraph
+
+ 

@@ -41,7 +41,7 @@ change direction of items so it's vertical
 give space between each element of 2rem
 make the size of the text to 1.2rem
 
-since this is the mobile menu we have to make it hidden by default we do this by targeting the entire wrapper and changing the display of it
+since this is the mobile menu we have to make the entire menu hidden by default (including the hamburger icon) cause we dont want it showing on desktop we do this by targeting the entire wrapper and changing the display of it
 
 to make the menu show we need to go to media queries 768px(where the desktop main menu will dissappear)
 make the mobile menu a block level element (prefix by targeting navbar class)

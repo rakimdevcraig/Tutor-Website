@@ -1,0 +1,64 @@
+HTML
+add section with the class of stats and section id of stats
+div with the class of container and stats-flex
+image stats image
+div with the class of stats-content inside
+div with the class of stats-numbers inside
+div 4x
+h3
+p
+
+paragraph class of stats-text
+
+anchor class of btn
+
+Styling:
+add the background image to the stats class (stats-background) is image center center/cover
+no repeat
+
+color of text white
+
+stats-flex class
+make image and stats-content be next to each other
+space between on main axis
+center on cross axis
+space inside the element top/bottom 4rem left/right 2rem
+
+stats image
+width 100%
+max width 500px
+
+stats-content max-width of 500px(make screen bigger to see what that looks like)
+
+stats numbers
+grid 4 columns 1fr 1rem or 0.5 space
+OR 
+flexbox 2rem of space outside top/bottom
+align text in the middle
+center on main/cross axis
+wrap the flex items
+
+sizing of numbers
+h3 
+size of text 3rem
+weight of text 700
+
+p
+size of text 0.8 rem
+
+.stats-text paragraph
+size of text 1.2rem
+align text middle
+space on bottom outside the element of 2rem
+
+button (target this one specifically because we have the utility class on it)
+make it take up its own line of space
+center it with margin
+align text in middle
+200px wide
+
+media query 992
+stack the elements (see what it looks like if i do a flex-wrap:wrap on stats-flex)
+
+576 stack the stats-numbers (see what it looks like with flex-wrap too)
+

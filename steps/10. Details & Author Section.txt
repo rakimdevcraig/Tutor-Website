@@ -1,0 +1,55 @@
+make a section with the class of details section and id details
+div with the class of container  details-flex inside:
+image details.png 
+div with class of details-content inside:
+h2 Course details
+div with class of heading-border
+paragraph
+anchor tag with class of button
+
+Author Section html
+section class of details section id Author
+div class of container details-flex
+section details-content inside:
+h2 
+div heading-border
+paragraph
+ul 3LI's
+chevron circle righticon text-primary class,li first word wrapped in strong tag
+anchor tag class of btn
+
+div outside with author image 
+
+Styling:
+using details flex class
+make a flex container
+add 4rem of space between flex items
+center items on main and cross axis
+
+image:
+100% of its container
+no bigger than 500px
+
+h2
+size of text 2rem
+font weight bold
+space on bottom outside the element of 0.5rem
+
+heading-border:make sure we arent affecting any of the others but make it all the way to the left
+
+paragraph space outside the element 1rem ontop 0left/right 2rem bottom
+
+put the author image on the right 
+use a css selector to choose a sibling 
+use flex property to reverse it around
+
+author ul styling
+make entire list have space on the bottom outside the element of 2rem
+
+make list items have a line height of 2
+
+make icons have space on the outside to the right of 0.5rem
+
+media queries 992
+make each section stack the image ontop the content
+

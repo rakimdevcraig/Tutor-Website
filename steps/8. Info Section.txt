@@ -1,0 +1,57 @@
+HTML
+Goal: make the background image be 100% of the width, make an info left div that takes up 50% but is empty so we can see the background image behind it and make an info-right div that takes up 50%
+
+make a section with the name info and id info
+make a div with the name of info-container
+make a div with the class name of info-left and leave empty:
+make a div with the class name of info-content and inside:
+an h2
+a p
+a UL inside the ul:
+li with i tag that has a check (5X)
+
+Styling:
+give the info container the background image of audience top center/cover no-repeat
+also make it a flex container
+
+info left:
+width of 50%
+
+info content styling:
+background color of primary color
+text color of white
+flex:1 to take up any remaining space
+space inside the element all around of 4rem
+
+info content h2
+size of text 2rem
+space on the bottom outside the element 1rem
+font weight of bold
+
+info content p
+size of text 1.2rem
+space on the bottom outside the element 2rem
+
+info content list items
+size of text 1.2 rem
+height of the lines 2
+
+info content i
+space on the outside of the element on the right 0.5 rem
+color of the checkmark is secondary color variable
+
+media query
+at 768px
+make the items stack
+
+info content:
+make space inside the element all around 2rem
+
+info content h2
+size of text 1.5rem
+
+info content p
+font-size 1rem
+
+info left:
+hide it using display property

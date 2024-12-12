@@ -1,0 +1,65 @@
+section with class of social and section 
+div class of container 
+p
+div with class of social icons inside:
+links with fontawesome icons
+
+footer element with class of footer
+div class of container and  footer-flex inside:
+ul with class of footer-links inside each li is an anchor tag
+paragrah inside with copyright symbol and info
+
+styling:
+entire social section
+background dark color variable
+color of text is white
+space inside the element top/bottom 6rem left/right 2rem
+text align center
+size of text 1.7rem
+space on bottom outside the element 0 (to remove margin from section class)
+
+anchor tags 
+color white
+
+anchor tags on hover
+secondary color variable
+
+make the social icons a flex container
+center on main/cross axis
+gap of 1rem
+space ontop outside the element of 2rem
+
+
+footer 
+background dark color variable
+color of text white
+border top 1px solid #384653
+space inside the element 0.5rem top/bottom left/right 2rem
+
+
+footer flex
+make flex container
+space between on main axis center cross axis
+
+footer flex links
+color white
+on hover secondary color
+
+links list
+make flex box
+center main/cross axis
+gap2rem
+space outside the element of 2rem top/bottom 0rem left/right
+
+media query breakpoint 768
+wrap social icons
+
+make social text 1.2rem 
+make social icons 2rem
+
+stack footer elements
+and make text align
+
+make the padding of the entire footer on sides 1rem
+
+

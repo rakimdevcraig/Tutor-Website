@@ -1,0 +1,41 @@
+make a section with the class of summary and id of summary for menu-click
+
+a div with the class of container
+a div with the class of section-header
+h2 with the text of Course Summary
+div with the class of heading-border
+
+outside of the section heading we're gonna have a div with the class of section-lists
+each list will have a div with the class of list
+div with the class of list-header
+div with the class of list item 3 times
+we need 3 such lists
+
+styling
+
+entire summary section:
+give it a background of light color variable which is a type of gray
+text color of dark color
+space inside the section 4rem top 2rem left/right 5rem bottom
+
+now we're gonna style the section lists wrapper
+white background
+space inside the element 2rem all sides
+
+list header:
+background of primary color variable
+color of text white
+space inside the element 0.5rem top/bottom 1rem left/right
+size of text 1.2rem
+weight of text bold
+space outside the element 1rem top/bottom 0 left/right
+
+list item:
+space inside the element top/bottom 1.4rem 0 left/right
+border on the bottom of the element 1px solid #f1f4f6
+
+on the last element we don't want a border bottom so we have to target that element
+
+media query:on small screens there's too much spacing
+576px:
+we want to remove padding from the container to make everything wider
